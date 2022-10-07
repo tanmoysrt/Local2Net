@@ -8,7 +8,7 @@ DEBUG = True
 # tx -> sending data to the channel
 
 class Adapter:
-    def __init__(self, host="127.0.0.1", port=8005, forwarding_port=3000):
+    def __init__(self, host="3.109.133.200", port=8005, forwarding_port=3000):
         global DEBUG
         self.DEBUG = DEBUG
         self.host = host
